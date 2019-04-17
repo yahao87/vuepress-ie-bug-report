@@ -5,7 +5,7 @@
 </template>
 
 <script>
-console.log('TEST console.log');
+console.log('TEST aa console.log');
 export default {
   props: ["page"]
 };

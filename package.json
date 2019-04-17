@@ -1,11 +1,18 @@
 {
   "scripts": {
     "start": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "build": "vuepress build docs --temp .temp",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.44"
+    "babel-preset-env": "^1.7.0",
+    "vuepress": "^1.0.0-alpha.47"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "core-js": "^3.0.1"
   }
 }
